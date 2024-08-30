@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:ProgressBar value="22" title="my-progress" name="PlayerHealthbar" style="align-self: flex-end; width: 20%; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(255, 0, 0, 0); border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0);" />
+    <ui:Label tabindex="-1" text="Enemies:" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PlayerEnemies" style="left: 80%;" />
+    <ui:Label tabindex="-1" text="Ammo:" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PlayerAmmo" style="left: 80%; top: 15%; position: absolute;" />
+    <ui:Label tabindex="-1" text="Fish:" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PlayerFish" style="left: 80%; position: absolute; top: 10%;" />
+    <ui:ProgressBar value="22" title="my-progress" name="Timerbar" style="align-self: center; width: 90%; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(255, 0, 0, 0); border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); left: 3%; position: absolute; top: 90%; right: auto; bottom: auto; flex-direction: column-reverse; height: 25px; align-items: stretch; justify-content: space-around; scale: 1 1;" />
+</ui:UXML>
